@@ -739,6 +739,58 @@ prodetails .single-pro-details input:focus {
   border-radius: 20px;
 }
 
+/* Contact Page */
+
+#contacts-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contacts-details .details {
+  width: 40%;
+}
+
+#contacts-details .details span{
+  font-size: 12px;
+}
+
+#contacts-details .details h2{
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+#contacts-details .details h3{
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+#contacts-details .details li {
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+#contacts-details .details li i {
+  font-size: 14px;
+  padding-right: 22px;
+}
+
+#contacts-details .details li p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#contacts-details .map {
+  width: 55%;
+  height: 400px;
+}
+
+#contacts-details .map iframe {
+  width: 100%;
+  height: 100%;
+}
 /* Start Media Query */
 
 @media (max-width: 799px) {
